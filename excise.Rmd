@@ -91,7 +91,7 @@ Puerto Rico:
 21 Kentucky 48 Texas
 22 Louisiana 49 Utah
 23 Maine 50 Vermont
-24 Maryland 52 Virgin Islands (since 2004)
+24 Maryland 52 Virgin Islands 
 25 Massachusetts 51 Virginia
 26 Michigan 53 Washington
 27 Minnesota 54 West Virginia
@@ -99,6 +99,18 @@ Puerto Rico:
 29 Missouri 56 Wyoming
 30 Montana
 
+```{r homework, eval=T}
+
+## Now finish the following R function, starting from directly reading the csv
+## file (accidents.csv). 
+GetStateFatality <- function (stateName, display){
+
+}
+
+#### Test your function
+GetStateFatality ('Texas', display=TRUE)
+
+``` 
 
 
 
